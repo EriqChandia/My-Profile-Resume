@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANDIA ERIC</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="row m-0">
+        <div class="col-3 sidebar">
+            <img class="rounded-circle" src="Profile Picture.PNG" width="300px" alt="profile photo"></col>">
+        <div>
+                <p id="myName">CHANDIA ERIC</p>
+            </div>
+            <div>
+                <p>ericchandia1@gmail.com</p>
+            </div>
+        <div class="menu">
+            <ul>
+               <li><a href="#about">About me</a></li>
+                <li><a href="#hobby">Hobbies</a></li>
+                <li><a href="#background">Education Background</a></li>
+                <li><a href="#experience">Work Experience</a></li>
+                <li><a href="#image">Images</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-9 content";"> 
+        <div class="container">
+            <h2 id="about" class="front-message text-warning pt-5 pb-3 ps-3 border-bottom">Welcome To My Resume</h2>
+        </div>
+        <div class="about">
+            <h5>My name is Chandia Eric. I am a 25 year old computer enthusiasist pursuing a Bachelor of Information Technology at Muni University Main Campus, Arua City. I hope you have a great time navigating through my webpage.
+    
+            </h5>
+    
+        </div>
+        <div class="hobby" id="hobby">
+            <h2>HOBBIES</h2>
+                <ul>
+                    <li>Playing football</li>
+                    <li>Reading books</li>
+                    <li>Adventure</li>
+                    <li>Making new friends</li>
+                </ul>
+        </div>
+        <div class="background" id="background">
+            <h2>EDUCATION BACKGROUND</h2>
+                    <table class="eductabel" >
+                        <tr>
+                            <th>LEVEL</th>
+                            <th>SCHOOL/COLLEGE</th>
+                            <th>YEAR</th>
+                        </tr>
+                        <tr>
+                            <td>Primary</td>
+                            <td>Redeemer Children's Primary School</td>
+                            <td>2004-2010</td>
+                        </tr>
+                        <tr>
+                            <td>O-Level</td>
+                            <td>Jinja College</td>
+                            <td>2011-2014</td>
+                        </tr>
+                        <tr>
+                            <td>A-level</td>
+                            <td>Our Lady of Africa SS Namilyango</td>
+                            <td>2015-2016</td>
+                        </tr>
+                        <tr>
+                            <td>Higher Education</td>
+                            <td>Muni University</td>
+                            <td>2023-Present</td>
+                        </tr>
+                    </table>
+        </div>
+        <div class="experience" id="experience">
+            <table>
+                <h2>WORK EXPERIENCE</h2>
+                <tr>
+                    <th>COMPANY</th>
+                    <th>JOB</th>
+                    <th>YEAR</th>
+                </tr>
+                <tr>
+                    <td>Al-Mike Timberland</td>
+                    <td>Salesperson</td>
+                    <td>2020-2021</td>
+                </tr>
+                <tr>
+                    <td>Cool Breeze Enterprises</td>
+                    <td>Accountant</td>
+                    <td>2021-2022</td>
+                </tr>
+                <tr>
+                    <td>Ssaky Investments Ltd</td>
+                    <td>Manager</td>
+                    <td>2022-2023</td>
+                </tr>
+            </table>
+    
+        </div>
+        <div class="lang">
+            <h2>LANGUAGES SPOKEN</h2>
+            <ul>
+                <li>English Language</li>
+                <li>Swahili</li>
+                <li>Lugbara</li>
+                <li>Madi</li>
+                <li>Luganda</li>
+            </ul>
+        </div>
+        <div class="image d-flex" id="image" >
+           <div class="pic-1"><img src="azure.JPG" alt="pic" width="100%"></div> 
+            <div class="pic-2"><img src="bliss.JPG" alt="pic" width="100%"></div>
+            <div class="pic-3"><img src="calma.JPG" alt="pic" width="100%"></div>
+        </div>
+        <div class="contact" id="contact">
+            <h2>My Contacts</h2>
+            <ul>
+                <li>Tel: 0772-356123</li>
+                <li>WhatsApp: 0772-356123</li>
+                <li>Email: ericchandia1@gmail.com</li>
+                <li>Address: Adjumani District</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        <script>
+            let NewName=localStorage.getItem('FullName')
+            document.getElementById('myName').textContent=NewName
+        </script>
+    </div>
+      
+</body>  
+</html>

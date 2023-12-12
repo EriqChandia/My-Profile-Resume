@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL INFORMATION FORM</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body style="background-color: bisque;">
+    <h2 style="color: blue;">Personal Information</h2>
+    <form action="index.html" target="_blank">
+        <label for="fname">Full Name:</label><br>
+        <input type="text" id="fname" name="firstname"><br>
+
+        <!-- <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lastname"><br> -->
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="contact">Contact:</label><br>
+        <input type="text" id="contact" name="contact" ><br>
+
+
+        <label for="dob">Date Of Birth:</label><br>
+        <input type="date" id="dob" name="birthdate"><br>
+
+        
+        <label for="education">Education Background:</label><br>
+        <button type="button" onclick="addEducation()">Add</button>
+        <table id="educationTable"></table>
+
+        <label for="experience">Working Experience:</label><br>
+        <textarea name="experience" id="experience" rows="4" ></textarea><br>
+
+        <label for="hobbies">Hobbies:</label><br>
+        <textarea name="hobbies" id="hobbies" rows="4" ></textarea><br>
+   
+        <button type="submit" onclick="RunData()">Submit</button>
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
